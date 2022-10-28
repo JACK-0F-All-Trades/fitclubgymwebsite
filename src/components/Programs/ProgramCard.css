@@ -1,0 +1,44 @@
+.card{
+    
+    background-color: var(--caloryCard);
+    /* padding: 30px;
+     */
+    padding: 2rem;
+    margin: 10px;
+    border-radius: 10px;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 300ms linear;
+    /* padding-top: 1rem; */
+    color: white;
+}
+.card:hover{
+    background: linear-gradient(red, orange);
+}
+
+.card div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card h4{
+    color: white;
+}
+.card div>button{
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    border: transparent;
+    transition: all 200ms linear;
+}
+
+.card div>button:hover{
+    cursor: pointer;
+    background-color: var(--darkGrey);
+    border: 2px solid white;
+    color: white;
+}
+.card div>span:hover{
+    cursor: pointer;
+}

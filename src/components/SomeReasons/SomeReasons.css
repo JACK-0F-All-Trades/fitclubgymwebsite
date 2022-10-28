@@ -1,0 +1,43 @@
+.someReasons{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+.someReasons>div p{
+    color: var(--orange);
+    margin-bottom: 2rem;
+
+}
+
+
+.someReasons>div{
+    font-weight: 700;
+}
+.reasonDetails{
+    margin: 2rem 0px;
+}
+.r{
+    font-size: 1rem;
+    color: white;
+}
+.reasonDetails img{
+    width: 2rem;
+    
+}
+.reasonDetails div{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.partners img{
+    width: 3rem;
+    margin: 0px 2rem;
+}
+
+@media screen and (max-width:768px){
+    .partners img{
+        width: 2rem;
+        margin: 0px 1rem;
+    }
+}

@@ -1,0 +1,34 @@
+.adMain{
+    background-color: var(--appColor);
+    width: 25%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    margin: 1rem;
+    margin-top: 4rem;
+    color: white;
+    z-index: 2;
+    position: relative;
+    user-select: none;
+}
+
+.slider{
+    background-color: var(--orange);
+    width: 29%;
+    height: 78%;
+    position: absolute;
+    left: 4px;
+    padding: 3px;
+    border-radius: 2rem;
+    z-index: -1;
+}
+
+@media  screen and (max-width: 768px) {
+    .adMain{
+        width: 90%;
+        margin-top: 0px;
+    }
+    
+}
